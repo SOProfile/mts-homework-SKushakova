@@ -1,10 +1,12 @@
-public class Cat extends Pat{
-    public Cat(String _breed, String _name, String _character, Double _cost) {
-        super(_breed, _name, _character, _cost);
+import java.time.LocalDate;
+
+public class Cat extends Pet {
+    public Cat(String breed, String name, String character, Double cost, LocalDate birthDate) {
+        super(breed, name, character, cost, birthDate);
     }
+
     @Override
-    public void saySome()
-    {
+    public void saySome() {
         System.out.println("Meow >_<!");
     }
 }

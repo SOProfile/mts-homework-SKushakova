@@ -1,10 +1,12 @@
-public class Lion extends Predator{
-    public Lion(String _breed, String _name, String _character, Double _cost) {
-        super(_breed, _name, _character, _cost);
+import java.time.LocalDate;
+
+public class Lion extends Predator {
+    public Lion(String breed, String name, String character, Double cost, LocalDate birthDate) {
+        super(breed, name, character, cost, birthDate);
     }
+
     @Override
-    public void saySome()
-    {
+    public void saySome() {
         System.out.println("Р-р-р!");
     }
 }
