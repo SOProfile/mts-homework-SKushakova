@@ -4,7 +4,7 @@ import java.time.Year;
 
 public class SearchServiceImpl implements SearchService {
     @Override
-    public String checkLeapYearAnimal(Animal animal) throws InvalidAnimalBirthDateException {
+    public boolean checkLeapYearAnimal(Animal animal) throws InvalidAnimalBirthDateException {
         if (animal == null) {
             throw InvalidAnimalException.nullObject();
         }
@@ -14,9 +14,9 @@ public class SearchServiceImpl implements SearchService {
         }
 
         if ( Year.of(birthDate.getYear()).isLeap()) {
-            return "Год високосный";
+            return true;
         } else {
-            return  "Год не високосный";
+            return  false;
         }
     }
 

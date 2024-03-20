@@ -1,3 +1,3 @@
 public interface SearchService {
-    public String checkLeapYearAnimal(Animal animal) throws InvalidAnimalBirthDateException;
+    public boolean checkLeapYearAnimal(Animal animal) throws InvalidAnimalBirthDateException;
 }
