@@ -8,4 +8,10 @@ public interface AnimalsRepository {
     public Map<Animal, Integer> findOlderAnimal(List<Animal> animals, Integer year);
 
     public Map<String, Integer> findDuplicate(List<Animal> animals);
+
+    public double findAverageAge(List<Animal> animals);
+
+    public List<Animal> findOldAndExpensive(List<Animal> animals);
+
+    public List<String> findMinConstAnimals(List<Animal> animals);
 }

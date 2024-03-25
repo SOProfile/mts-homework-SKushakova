@@ -16,10 +16,11 @@ public class RandomValueGenerator {
     LocalDate birthDate;
 
     public String getRandomName() {
-        names.add("Имя1");
-        names.add("Имя2");
-        names.add("Имя3");
-        names.add("Имя4");
+        names.add("Барсик");
+        names.add("Алиса");
+        names.add("Яна");
+        names.add("Пушок");
+        names.add("Витя");
         int nameIndex = (int) Math.floor(Math.random() * names.size());
         String name = names.get(nameIndex);
         return name;

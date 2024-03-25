@@ -43,12 +43,22 @@ public class Main {
         System.out.println(animalsLeapYears);
 
         System.out.println("Самое старое животное:");
-        Map<Animal, Integer> olderAnimal = animalsRepository.findOlderAnimal(animalService.createRandomListAnimal(), 500);
+        Map<Animal, Integer> olderAnimal = animalsRepository.findOlderAnimal(animalService.createRandomListAnimal(), 20);
         System.out.println(olderAnimal);
 
         System.out.println("Дубликаты:");
         Map<String, Integer> animalsDuplicate = animalsRepository.findDuplicate(animalService.createRandomListAnimal());
         System.out.println(animalsDuplicate);
 
+        System.out.println("Средний возраст животных");
+        System.out.println(animalsRepository.findAverageAge(animalService.createRandomListAnimal()));
+
+        System.out.println("Возраст больше 5 и цена выше средней:");
+        animalsRepository.findOldAndExpensive(animalService.createRandomListAnimal()).forEach(animal -> System.out.println(animal.getName() + " " + animal.getCost() + " " + animal.getBirthDate()));
+
+        System.out.println("Трое животных с самой низкой ценой: ");
+        List<Animal> randomAnimalList = animalService.createRandomListAnimal();
+        randomAnimalList.forEach(animal -> System.out.println(animal.getName() + " " + animal.getCost()));
+        animalsRepository.findMinConstAnimals(randomAnimalList).forEach(animal -> System.out.println(animal));
     }
 }
