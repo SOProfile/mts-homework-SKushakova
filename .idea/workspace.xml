@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreateAnimalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateAnimalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreateAnimalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateAnimalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RandomValueGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomValueGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CreateAnimalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CreateAnimalService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CreateAnimalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CreateAnimalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InvalidAnimalBirthDateException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InvalidAnimalBirthDateException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InvalidAnimalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InvalidAnimalException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RandomValueGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RandomValueGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SearchServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/HW-2" />
+        <entry key="$PROJECT_DIR$" value="feature/HW-4" />
       </map>
     </option>
   </component>
@@ -164,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicateIsEmpty" />
-        <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicate" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsNoOlderYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsLeapYearAnimal" />
+        <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicateIsEmpty" />
+        <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicate" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +171,7 @@
       <workItem from="1708953894640" duration="21833000" />
       <workItem from="1709993497811" duration="82000" />
       <workItem from="1709993612404" duration="14992000" />
-      <workItem from="1710754032085" duration="25342000" />
+      <workItem from="1710754032085" duration="44069000" />
     </task>
     <task id="LOCAL-00001" summary="new homework">
       <created>1708075680794</created>
@@ -236,7 +222,35 @@
       <option name="project" value="LOCAL" />
       <updated>1710754148067</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавлены тесты и классы исключений">
+      <created>1710949330109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710949330109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="добавлены тесты и классы исключений">
+      <created>1710949516130</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710949516130</updated>
+    </task>
+    <task id="LOCAL-00010" summary="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api">
+      <created>1711373050129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711373050129</updated>
+    </task>
+    <task id="LOCAL-00011" summary="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api">
+      <created>1711435655795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711435655795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +271,8 @@
     <MESSAGE value="new homework" />
     <MESSAGE value="добавлены новые классы и интерфейсы для работы с генерацией животных" />
     <MESSAGE value="добавлены тесты и классы исключений" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены тесты и классы исключений" />
+    <MESSAGE value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
+    <MESSAGE value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
   </component>
 </project>
