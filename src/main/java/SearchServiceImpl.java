@@ -12,12 +12,7 @@ public class SearchServiceImpl implements SearchService {
         if(birthDate == null){
             throw InvalidAnimalBirthDateException.nullBirthday(animal.getClass().getName());
         }
-
-        if ( Year.of(birthDate.getYear()).isLeap()) {
-            return true;
-        } else {
-            return  false;
-        }
+        return  Year.of(birthDate.getYear()).isLeap();
     }
 
     public Long getDaysOfYear(LocalDate date) {
