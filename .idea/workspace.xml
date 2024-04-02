@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="" />
+    <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/HW-1" />
+        <entry key="$PROJECT_DIR$" value="feature/HW-3" />
       </map>
     </option>
   </component>
@@ -61,6 +64,12 @@
         <option name="owner" value="SOProfile" />
         <option name="repository" value="mts-homework-SKushakova" />
       </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d8d28f1d-0da4-4494-af27-22d14bc21069" />
+        <option name="url" value="https://github.com/SOProfile/mts-homework-SKushakova.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,19 +81,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sakushakov/IdeaProjects/mts-homework-SAKushakova&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "liberica-11",
+    "last_opened_file_path": "C:/Users/sakushakov/IdeaProjects/mts-homework-SAKushakova",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sakushakov\IdeaProjects\mts-homework-SAKushakova" />
@@ -98,40 +108,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalRepositoryTest.checkFindDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mts-homework-SAKushakova" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchServiceTest.checkIsNotLeapYearAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mts-homework-SAKushakova" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchServiceTest" />
-      <option name="METHOD_NAME" value="checkIsNotLeapYearAnimal(int)" />
+      <option name="MAIN_CLASS_NAME" value="AnimalRepositoryTest" />
+      <option name="METHOD_NAME" value="checkFindDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchServiceTest.checkIsNullAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalRepositoryTest.checkFindDuplicateIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mts-homework-SAKushakova" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchServiceTest" />
-      <option name="METHOD_NAME" value="checkIsNullAnimal" />
+      <option name="MAIN_CLASS_NAME" value="AnimalRepositoryTest" />
+      <option name="METHOD_NAME" value="checkFindDuplicateIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchServiceTest.checkIsNullYearAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalRepositoryTest.checkIsLeapYearAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mts-homework-SAKushakova" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchServiceTest" />
-      <option name="METHOD_NAME" value="checkIsNullYearAnimal" />
+      <option name="MAIN_CLASS_NAME" value="AnimalRepositoryTest" />
+      <option name="METHOD_NAME" value="checkIsLeapYearAnimal(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalRepositoryTest.checkIsNoOlderYearAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mts-homework-SAKushakova" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnimalRepositoryTest" />
+      <option name="METHOD_NAME" value="checkIsNoOlderYearAnimal(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SearchServiceTest" />
-        <item itemvalue="JUnit.SearchServiceTest.checkIsNullAnimal" />
-        <item itemvalue="JUnit.SearchServiceTest.checkIsNullYearAnimal" />
-        <item itemvalue="JUnit.SearchServiceTest.checkIsNotLeapYearAnimal" />
+        <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicateIsEmpty" />
+        <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicate" />
+        <item itemvalue="JUnit.AnimalRepositoryTest.checkIsNoOlderYearAnimal" />
+        <item itemvalue="JUnit.AnimalRepositoryTest.checkIsLeapYearAnimal" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +171,7 @@
       <workItem from="1708953894640" duration="21833000" />
       <workItem from="1709993497811" duration="82000" />
       <workItem from="1709993612404" duration="14992000" />
-      <workItem from="1710754032085" duration="10000" />
+      <workItem from="1710754032085" duration="42924000" />
     </task>
     <task id="LOCAL-00001" summary="new homework">
       <created>1708075680794</created>
@@ -204,7 +215,35 @@
       <option name="project" value="LOCAL" />
       <updated>1710008436260</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавлены тесты и классы исключений">
+      <created>1710754148067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710754148067</updated>
+    </task>
+    <task id="LOCAL-00008" summary="добавлены тесты и классы исключений">
+      <created>1710949330109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710949330109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="добавлены тесты и классы исключений">
+      <created>1710949516130</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710949516130</updated>
+    </task>
+    <task id="LOCAL-00010" summary="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api">
+      <created>1711373050129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711373050129</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +263,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new homework" />
     <MESSAGE value="добавлены новые классы и интерфейсы для работы с генерацией животных" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены новые классы и интерфейсы для работы с генерацией животных" />
+    <MESSAGE value="добавлены тесты и классы исключений" />
+    <MESSAGE value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
   </component>
 </project>
