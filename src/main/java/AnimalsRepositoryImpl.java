@@ -52,16 +52,16 @@ public class AnimalsRepositoryImpl implements AnimalsRepository {
         for (Integer count = 0; count < animals.size(); count++) {
             switch (animals.get(count).getClass().getName()) {
                 case ("Cat"):
-                    cats += cats;
+                    cats++;
                     break;
                 case ("Dog"):
-                    dogs += dogs;
+                    dogs++;
                     break;
                 case ("Wolf"):
-                    wolfs += wolfs;
+                    wolfs++;
                     break;
                 case ("Lion"):
-                    lions += lions;
+                    lions++;
                     break;
             }
         }

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,7 @@
       <workItem from="1708953894640" duration="21833000" />
       <workItem from="1709993497811" duration="82000" />
       <workItem from="1709993612404" duration="14992000" />
-      <workItem from="1710754032085" duration="44069000" />
+      <workItem from="1710754032085" duration="46294000" />
     </task>
     <task id="LOCAL-00001" summary="new homework">
       <created>1708075680794</created>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711435655795</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api">
+      <created>1711437625086</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711437625086</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
