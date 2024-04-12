@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RandomValueGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomValueGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AnimalsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AnimalsRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RandomValueGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RandomValueGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/HW-4" />
+        <entry key="$PROJECT_DIR$" value="feature/HW-5" />
       </map>
     </option>
   </component>
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsNoOlderYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsLeapYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicateIsEmpty" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicate" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +171,7 @@
       <workItem from="1709993497811" duration="82000" />
       <workItem from="1709993612404" duration="14992000" />
       <workItem from="1710754032085" duration="42924000" />
-      <workItem from="1712308772148" duration="3684000" />
+      <workItem from="1712308772148" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="new homework">
       <created>1708075680794</created>
@@ -248,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711373050129</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавлены классы для сортировок массивов в однопоточном и многопоточном режиме, а так же поиска простых чисел. &#10;Сделаны задания 1, 5, 6">
+      <created>1712913902208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712913902208</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +272,8 @@
     <MESSAGE value="добавлены новые классы и интерфейсы для работы с генерацией животных" />
     <MESSAGE value="добавлены тесты и классы исключений" />
     <MESSAGE value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
+    <MESSAGE value="Добавлены классы для сортировок массивов в однопоточном и многопоточном режиме, а так же поиска простых чисел. &#10;Сделаны задания 1, 5, 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены классы для сортировок массивов в однопоточном и многопоточном режиме, а так же поиска простых чисел. &#10;Сделаны задания 1, 5, 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
