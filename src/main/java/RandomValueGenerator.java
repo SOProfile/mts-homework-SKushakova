@@ -13,6 +13,20 @@ public class RandomValueGenerator {
     ArrayList<String> breads = new ArrayList<String>();
     ArrayList<Double> costs = new ArrayList<Double>();
 
+
+    public Integer[] getRandomNums(int size){
+        ArrayList<Integer> array = new ArrayList<>();
+        int conut = 0;
+        while (conut < size)
+        {
+            array.add((int) Math.floor(Math.random() * 1000));
+            conut++;
+        }
+
+        Integer[] randomNums = array.toArray(new Integer[0]);
+        return randomNums;
+    }
+
     LocalDate birthDate;
 
     public String getRandomName() {

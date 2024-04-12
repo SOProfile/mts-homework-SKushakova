@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RandomValueGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomValueGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnimalsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AnimalsRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RandomValueGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RandomValueGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +85,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "liberica-11",
-    "last_opened_file_path": "C:/Users/sakushakov/IdeaProjects/mts-homework-SAKushakova",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sakushakov/IdeaProjects/mts-homework-SAKushakova&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sakushakov\IdeaProjects\mts-homework-SAKushakova" />
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsNoOlderYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsLeapYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicateIsEmpty" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicate" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +175,8 @@
       <workItem from="1708953894640" duration="21833000" />
       <workItem from="1709993497811" duration="82000" />
       <workItem from="1709993612404" duration="14992000" />
-      <workItem from="1710754032085" duration="46294000" />
+      <workItem from="1710754032085" duration="42924000" />
+      <workItem from="1712308772148" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="new homework">
       <created>1708075680794</created>
@@ -242,21 +248,7 @@
       <option name="project" value="LOCAL" />
       <updated>1711373050129</updated>
     </task>
-    <task id="LOCAL-00011" summary="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api">
-      <created>1711435655795</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1711435655795</updated>
-    </task>
-    <task id="LOCAL-00012" summary="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api">
-      <created>1711437625086</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1711437625086</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +270,26 @@
     <MESSAGE value="добавлены новые классы и интерфейсы для работы с генерацией животных" />
     <MESSAGE value="добавлены тесты и классы исключений" />
     <MESSAGE value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
-    <MESSAGE value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;4. поправила метод для проверки года рождения животного на високосность&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены методы для:&#10;1. поиска среднего возраста животных&#10;2. поиска животных, возраст которых больше 5 и цена выше средней&#10;3. поиска 3 животных с самой низкой ценой, отсортированных в обратном алф. порядке&#10;&#10;методы класса animalRepositoryImpl переведены на stream api" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MultiThreadsPrimaryNumsChecker.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasePrimaryNumsChecker.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="28" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
