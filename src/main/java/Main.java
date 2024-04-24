@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws InvalidAnimalBirthDateException {
@@ -44,7 +44,6 @@ public class Main {
         Map<String, Integer> animalsDuplicate = animalsRepository.findDuplicate(animalService.createRandomListAnimal());
         System.out.println(animalsDuplicate);
 
-        */
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите размер массива: ");
@@ -90,13 +89,11 @@ public class Main {
         loggerBase.append(" секунд");
         System.out.println(loggerBase.toString());
 
-        /*
         BaseNaturalNumsChecker baseNaturalNumsChecker = new BaseNaturalNumsChecker(naturalNums);
         baseNaturalNumsChecker.checkIsPrimary();
         for (int c = 0; c < naturalNums.length; c++) {
             System.out.println(baseNaturalNumsChecker.getChecked()[c]);
         }
-        */
         MultiThreadsPrimaryNumsChecker multiThreadsPrimaryNumsChecker = new MultiThreadsPrimaryNumsChecker(randomArray);
 
         multiThreadsPrimaryNumsChecker.start();
@@ -109,6 +106,16 @@ public class Main {
         for (int c = 0; c < multiThreadsPrimaryNumsChecker.getChecked().length; c++) {
             System.out.println(multiThreadsPrimaryNumsChecker.getChecked()[c]);
         }
+*/
+        CreateAnimalServiceImpl animalService = new CreateAnimalServiceImpl();
+        AnimalsRepositoryImpl animalsRepository = new AnimalsRepositoryImpl();
 
+        System.out.println("Самое старое животное:");
+        Map<AbstractAnimal, Integer> olderAnimal = animalsRepository.findOlderAnimal(animalService.createRandomListAnimal(), 500);
+        System.out.println(olderAnimal);
+
+        ResultReader resultReader = new ResultReader();
+        resultReader.readObject();
+        resultReader.getLogData();
     }
 }

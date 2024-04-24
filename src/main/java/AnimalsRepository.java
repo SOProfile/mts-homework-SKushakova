@@ -3,9 +3,9 @@ import java.util.List;
 import java.util.Map;
 
 public interface AnimalsRepository {
-    public Map<String, LocalDate> findLeapYearNames(List<Animal> animals) throws InvalidAnimalBirthDateException;
+    public Map<String, LocalDate> findLeapYearNames(List<AbstractAnimal> animals) throws InvalidAnimalBirthDateException;
 
-    public Map<Animal, Integer> findOlderAnimal(List<Animal> animals, Integer year);
+    public Map<AbstractAnimal, Integer> findOlderAnimal(List<AbstractAnimal> animals, Integer year);
 
-    public Map<String, Integer> findDuplicate(List<Animal> animals);
+    public Map<String, Integer> findDuplicate(List<AbstractAnimal> animals);
 }

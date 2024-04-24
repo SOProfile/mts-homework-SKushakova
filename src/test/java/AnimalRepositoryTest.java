@@ -24,7 +24,7 @@ public class AnimalRepositoryTest {
     Lion lion1 = new Lion("Порода1", "Имя1", "Характер1", 333.33, LocalDate.of(2024, 1, 1));
     Lion lion2 = new Lion("Порода1", "Имя1", "Характер1", 333.33, LocalDate.of(2023, 1, 1));
 
-    List<Animal> animalsTestList = new ArrayList<>();
+    List<AbstractAnimal> animalsTestList = new ArrayList<>();
 
 
     @Test

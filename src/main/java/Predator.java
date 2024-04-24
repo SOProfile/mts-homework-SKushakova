@@ -12,8 +12,18 @@ public class Predator extends AbstractAnimal {
     }
 
     @Override
+    public void setBreed() {
+
+    }
+
+    @Override
     public String getName() {
         return name;
+    }
+
+    @Override
+    public void setName() {
+
     }
 
     @Override
@@ -22,8 +32,18 @@ public class Predator extends AbstractAnimal {
     }
 
     @Override
+    public void setCost() {
+
+    }
+
+    @Override
     public String getCharacter() {
         return character;
+    }
+
+    @Override
+    public void setCharacter() {
+
     }
 
     @Override
@@ -34,6 +54,11 @@ public class Predator extends AbstractAnimal {
     @Override
     public void setBirthDate(LocalDate birthday) {
         this.birthDate = birthday;
+    }
+
+    @Override
+    public void setSecretInformation() {
+
     }
 
     @Override

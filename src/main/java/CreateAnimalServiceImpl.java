@@ -1,11 +1,15 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class CreateAnimalServiceImpl implements CreateAnimalService {
 
-    public Map<String, List<Animal>> createAnimal(int _animalsNum) {
+    public Map<String, List<AbstractAnimal>> createAnimal(int _animalsNum) {
         Integer count = 0;
         for (count = 0; count < _animalsNum; count++) {
             this.createListAnimal();
@@ -19,7 +23,7 @@ public class CreateAnimalServiceImpl implements CreateAnimalService {
     }
 
     @Override
-    public Map<String, List<Animal>> createAnimal() {
+    public Map<String, List<AbstractAnimal>> createAnimal() {
         Integer count = 0;
         do {
             this.createListAnimal();
@@ -32,13 +36,29 @@ public class CreateAnimalServiceImpl implements CreateAnimalService {
         return animals;
     }
 
-    public List<Animal> createRandomListAnimal()
+    public List<AbstractAnimal> createRandomListAnimal()
     {
-        List<Animal> animalList = new ArrayList<>();
+        String animal;
+        List<AbstractAnimal> animalList = new ArrayList<>();
         for (Integer count = 0; count < 10; count ++)
         {
             animalList.add(this.createRandomAnimal());
+            Object LocalDateFormatter;
+            animal = count + 1 + " " + animalList.get(count).getClass().getName() + " " + animalList.get(count).getName() + " " + animalList.get(count).getCost() + " " + animalList.get(count).getBirthDate() + "\n";
+            this.write(animal);
         }
         return animalList;
+    }
+    /**
+     * Функция для записи в файл строки.
+     */
+    static void write(String animal) {
+        Path path = Paths.get("src/main/resources/animals/logData.txt");
+
+        try {
+            Files.writeString(path, animal, StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
