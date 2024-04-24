@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43b6187-8524-4be2-8c9d-56d5f79d947f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MultiThreadsRandomValueGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayMerger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiThreadsPrimaryNumsChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiThreadsPrimaryNumsChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePrimaryNumsChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePrimaryNumsChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BaseSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiThreadsPrimaryNumsChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiThreadsPrimaryNumsChecker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +61,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/HW-5" />
+        <entry key="$PROJECT_DIR$" value="feature/HW-6" />
       </map>
     </option>
   </component>
@@ -149,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsNoOlderYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkIsLeapYearAnimal" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicateIsEmpty" />
         <item itemvalue="JUnit.AnimalRepositoryTest.checkFindDuplicate" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +179,9 @@
       <workItem from="1709993497811" duration="82000" />
       <workItem from="1709993612404" duration="14992000" />
       <workItem from="1710754032085" duration="42924000" />
-      <workItem from="1712308772148" duration="4558000" />
+      <workItem from="1712308772148" duration="6536000" />
+      <workItem from="1713779414505" duration="2061000" />
+      <workItem from="1713944750209" duration="3877000" />
     </task>
     <task id="LOCAL-00001" summary="new homework">
       <created>1708075680794</created>
@@ -250,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712913902208</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Добавлены классы для сортировок массивов в однопоточном и многопоточном режиме, а так же поиска простых чисел. &#10;Сделаны задания 1, 5, 6">
+      <created>1712914613537</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712914613537</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Добавлены классы для сортировок массивов в однопоточном и многопоточном режиме, а так же поиска простых чисел. &#10;Сделаны задания 1, 5, 6">
+      <created>1712914635867</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712914635867</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,11 +302,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MultiThreadsPrimaryNumsChecker.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BasePrimaryNumsChecker.java</url>
           <line>34</line>

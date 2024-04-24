@@ -44,17 +44,26 @@ public class Main {
         Map<String, Integer> animalsDuplicate = animalsRepository.findDuplicate(animalService.createRandomListAnimal());
         System.out.println(animalsDuplicate);
 
-        */
 
+*/
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите размер массива: ");
 
         int number = scanner.nextInt();
 
         RandomValueGenerator randomValueGenerator = new RandomValueGenerator();
-        Integer[] randomArray = randomValueGenerator.getRandomNums(number);
-        MultiThreadsSorter multiThreadsSorter = new MultiThreadsSorter(randomArray);
         long startTime = System.nanoTime();
+        Integer[] randomArray = randomValueGenerator.getRandomNums(number);
+
+        StringBuilder loggerMulti = new StringBuilder();
+        long endTime = System.nanoTime();
+        loggerMulti.append("Однопоточная генерация рандомных чисел: ");
+        loggerMulti.append((double) (endTime - startTime) / 1_000_000_000);
+        loggerMulti.append(" секунд");
+        System.out.println(loggerMulti.toString());
+
+        MultiThreadsSorter multiThreadsSorter = new MultiThreadsSorter(randomArray);
+        startTime = System.nanoTime();
 
         multiThreadsSorter.start();
         try {
@@ -63,12 +72,12 @@ public class Main {
 
         }
 
-        long endTime = System.nanoTime();
+        endTime = System.nanoTime();
         for (int c = 0; c < number; c++) {
             System.out.println(multiThreadsSorter.getSorted()[c]);
         }
 
-        StringBuilder loggerMulti = new StringBuilder();
+        loggerMulti = new StringBuilder();
         loggerMulti.append("Многопоточная сортировка: ");
         loggerMulti.append((double) (endTime - startTime) / 1_000_000_000);
         loggerMulti.append(" секунд");
@@ -90,13 +99,6 @@ public class Main {
         loggerBase.append(" секунд");
         System.out.println(loggerBase.toString());
 
-        /*
-        BaseNaturalNumsChecker baseNaturalNumsChecker = new BaseNaturalNumsChecker(naturalNums);
-        baseNaturalNumsChecker.checkIsPrimary();
-        for (int c = 0; c < naturalNums.length; c++) {
-            System.out.println(baseNaturalNumsChecker.getChecked()[c]);
-        }
-        */
         MultiThreadsPrimaryNumsChecker multiThreadsPrimaryNumsChecker = new MultiThreadsPrimaryNumsChecker(randomArray);
 
         multiThreadsPrimaryNumsChecker.start();
@@ -110,5 +112,24 @@ public class Main {
             System.out.println(multiThreadsPrimaryNumsChecker.getChecked()[c]);
         }
 
+        MultiThreadsRandomValueGenerator multiThreadsRandomValueGenerator = new MultiThreadsRandomValueGenerator(number);
+        startTime = System.nanoTime();
+        multiThreadsRandomValueGenerator.start();
+
+        try {
+            multiThreadsRandomValueGenerator.join();
+        } catch (Exception e) {
+
+        }
+        endTime = System.nanoTime();
+
+        loggerMulti = new StringBuilder();
+        loggerMulti.append("Многопоточная генерация рандомных чисел: ");
+        loggerMulti.append((double) (endTime - startTime) / 1_000_000_000);
+        loggerMulti.append(" секунд");
+        System.out.println(loggerMulti.toString());
+        for (int c = 0; c < number; c++) {
+            System.out.println(multiThreadsRandomValueGenerator.getRandomValues()[c]);
+        }
     }
 }

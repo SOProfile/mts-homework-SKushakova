@@ -40,14 +40,7 @@ public class MultiThreadsPrimaryNumsChecker extends Thread {
                     leftNums.unchecked = BasePrimaryNumsChecker.getPrimaryNums(leftNums.unchecked);
                     rightNums.unchecked = BasePrimaryNumsChecker.getPrimaryNums(rightNums.unchecked);
                     checked = new Integer[leftNums.unchecked.length + rightNums.unchecked.length];
-                    if (leftNums.unchecked != null && rightNums.unchecked != null) {
-                        System.arraycopy(leftNums.unchecked, 0, checked, 0, leftNums.unchecked.length);
-                        System.arraycopy(rightNums.unchecked, 0, checked, leftNums.unchecked.length, rightNums.unchecked.length);
-                    } else if (leftNums.unchecked != null) {
-                        System.arraycopy(leftNums.unchecked, 0, checked, 0, leftNums.unchecked.length);
-                    } else if (rightNums.unchecked != null) {
-                        System.arraycopy(rightNums.unchecked, 0, checked, 0, rightNums.unchecked.length);
-                    }
+                    checked = ArrayMerger.arrayMerger(leftNums.unchecked, rightNums.unchecked);
                 } catch (Exception e) {
 
                 }

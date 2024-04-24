@@ -23,4 +23,19 @@ public class ArrayMerger {
 
         return merged;
     }
+
+    public static Integer[] arrayMerger(Integer[] leftArray, Integer[] rightArray) {
+        Integer[] mergedArray = new Integer[leftArray.length + rightArray.length];
+        if (leftArray != null && rightArray != null) {
+            System.arraycopy(leftArray, 0, mergedArray, 0, leftArray.length);
+            System.arraycopy(rightArray, 0, mergedArray, leftArray.length, rightArray.length);
+        } else if (leftArray != null) {
+            mergedArray = new Integer[leftArray.length];
+            System.arraycopy(leftArray, 0, mergedArray, 0, leftArray.length);
+        } else if (rightArray != null) {
+            mergedArray = new Integer[rightArray.length];
+            System.arraycopy(rightArray, 0, mergedArray, 0, rightArray.length);
+        }
+        return mergedArray;
+    }
 }
